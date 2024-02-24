@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    /* Estilos de la barra lateral (si los hay) */
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con transparencia */
+    padding: 20px; /* Añadir espacio para evitar que el contenido se pegue al borde */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Cambiar el color del texto del enlace a blanco */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.diagonal-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.diagonal-list li {
+    list-style: none;
+    margin: 5px;
+    transform: rotate(-45deg);
+}
+
+.diagonal-list a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(45deg);
+    padding: 10px 15px;
+    margin: 5px;
+}
